@@ -91,7 +91,7 @@ ipython_config.py
 #   However, in case of collaboration, if having platform-specific dependencies
 #   or dependencies
 #   having no cross-platform support, pipenv may install dependencies that
-#   donÎéÎ÷t work, or not
+#   donï¿½ï¿½ï¿½ï¿½t work, or not
 #   install all needed dependencies.
 #Pipfile.lock
 
@@ -127,7 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# package custom
-chtools/config/
-
