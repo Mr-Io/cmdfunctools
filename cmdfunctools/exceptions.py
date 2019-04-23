@@ -14,5 +14,5 @@ class CmdfunctoolsBaseError(Exception):
 class CommandInputError(CmdfunctoolsBaseError):
     """A command input error occurred."""
     def __init__(self, msg: str, func):
-        CmdfunctoolsBaseError.__init__(self, msg + '\n' + func.__doc__)
+        CmdfunctoolsBaseError.__init__(self, msg)
         self.func = func
